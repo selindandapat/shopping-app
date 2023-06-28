@@ -1,0 +1,61 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 200px;
+    gap: 150px;
+  }
+  .container {
+    display: flex;
+    flex-direction:column;
+  }
+  img {
+    width: 90%;
+    max-height: 200px;
+  }
+  .btn{
+    align-items:flex-end;
+    justify-content:flex-end;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+  }
+
+  .press{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: all 0.2s ease-in;
+    overflow: hidden;
+    color: #090909;
+    z-index: 1;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #f56f6f;
+    border: 1px solid #e8e8e8;
+  }
+
+  .press:hover{
+    color: #ffffff;
+    background:#009087;
+    border-color: black;
+    border-radius: 20px;
+  }
+
+  .price{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color:rgb(198, 61, 61);
+  }
+
+  .text{
+    color: rgb(166, 22, 179);
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .title{
+    font-size: small;
+    font-family:cursive;
+    color: rgb(106, 103, 103);
+  }
